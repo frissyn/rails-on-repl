@@ -24,7 +24,9 @@ Rails.application.configure do
 end
 ```
 
-5. Hit `RUN` and enjoy!
+6. Hit `RUN` and enjoy!
+
+---
 
 **NOTE** - Because the Web-View tab in the IDE only allows traffic from the repl's host, you'll have to open your app in a new tab to view it. ¯\\\_(ツ)\_/¯
 
