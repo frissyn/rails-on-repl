@@ -25,7 +25,6 @@
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
-
 /public/assets
 .byebug_history
 
@@ -38,3 +37,5 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# End
