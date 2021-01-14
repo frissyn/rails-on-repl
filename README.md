@@ -17,7 +17,7 @@ Repl.it is an online programming IDE with support for 50 languages and free host
 
 `Overwrite /home/runner/~/README.md? (enter "h" for help) [Ynaqdhm] a`
 
-4. Navigate to `config/environments/development.rb` and clear the hosts like so:
+5. Navigate to `config/environments/development.rb` and clear the hosts like so:
 
 ```ruby
 Rails.application.configure do
