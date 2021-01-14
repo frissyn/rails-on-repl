@@ -13,3 +13,11 @@ Repl.it is an online programming IDE with support for 50 languages and free host
 3. Create a new Rails app with your desired options:
 + `bundle exec rails new . --minimal --api`
 4. Hit RUN and enjoy! :)
+
+**BONUS** - Here are the commands for making a *bare minimum* Rails app:
+
+```bash
+bundle exec rails new . --skip-keeps --skip-action-mailer --skip-action-mailbox --skip-action-text --skip-active-record --skip-active-storage --skip-puma --skip-action-cable --skip-sprockets --skip-spring --skip-listen --skip-turbolinks --skip-test --skip-system-test --skip-bootsnap --api
+
+rm -rf app/jobs app/models config/initializers config/locales lib log public tmp vendor config/environments/test.rb config/environments/production.rb config/credentials.yml.enc config/master.key bin/rake bin/setup bin/bundle
+```
