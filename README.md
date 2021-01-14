@@ -10,6 +10,6 @@ Repl.it is an online programming IDE with support for 50 languages and free host
 + `git clone https://github.com/IreTheKID/rails-on-repl.git .`
 + `bundle install --clean --path .bundle`
 
-3. Create a new Rails with your desired options:
+3. Create a new Rails app with your desired options:
 + `bundle exec rails new . --minimal --api`
 4. Hit RUN and enjoy! :)
