@@ -6,23 +6,21 @@ Repl.it is an online programming IDE with support for 50 languages and free host
 
 1. Create a [new Ruby REPL](https://repl.it/l/ruby).
 2. Open the shell and run the following commands in order:
-`rm main.rb`
-`git clone https://github.com/IreTheKID/rails-on-repl.git .`
-`bundle install --clean --path .bundle`
+   + `rm main.rb`
+   + `git clone https://github.com/IreTheKID/rails-on-repl.git .`
+   + `bundle install --clean --path .bundle`
 
 3. Create a new Rails app with your desired options:
-`bundle exec rails new . --minimal --api`
+   + `bundle exec rails new . --minimal --api`
 
 4. Allow all overwrites by entering `a` when prompted:
-
-`Overwrite /home/runner/~/README.md? (enter "h" for help) [Ynaqdhm] a`
+   + `Overwrite /home/runner/~/README.md? (enter "h" for help) [Ynaqdhm] a`
 
 5. Navigate to `config/environments/development.rb` and clear the hosts like so:
-
 ```ruby
 Rails.application.configure do
-  # other code...
-  config.hosts.clear
+    # other code...
+    config.hosts.clear
 end
 ```
 
