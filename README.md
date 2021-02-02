@@ -1,3 +1,5 @@
+**UPDATE NOTICE:** Recently, running Rails applications on Repl.it have become much easier. Ruby REPLs now run with bundler context so there isn't any need to configure the `run` command yourself, except to tell Rails to run on host `0.0.0.0` instead of `localhost`. Find more info [at the official blog](https://blog.repl.it/rails). This repo will be archived.
+
 ## Rails on Repl.it
 
 Repl.it is an online programming IDE with support for 50 languages and free hosting for web applications of any type (almost). That being said, support for running Rails applications is pretty doodoo, and for a site who's selling point is minimal setup and configuration, it's quite a pain to deploy Rails apps. This repo is intented to streamline the proccess of creating Ruby on Rails applications within a REPL and deploy it on Repl.it.
